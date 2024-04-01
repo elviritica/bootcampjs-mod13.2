@@ -31,6 +31,14 @@
       "balance": 0,
       "lastTransaction": "2024-04-01T16:17:34.286Z",
       "id": "VmXmd3Y"
+    },
+    {
+      "iban": "IE82 0396 1723 5100 8503 77",
+      "name": "Elvira2",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2024-04-01T16:27:13.421Z",
+      "id": "ntt1BKF"
     }
   ],
   "movements": [
