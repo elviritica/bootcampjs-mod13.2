@@ -23,6 +23,14 @@
       "name": "Ahorro",
       "balance": 8500,
       "lastTransaction": "2019-11-15T08:29:04"
+    },
+    {
+      "iban": "GT80 83D0 7AJ8 6222 4402 8784 536I",
+      "name": "Elvira",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2024-04-01T16:17:34.286Z",
+      "id": "VmXmd3Y"
     }
   ],
   "movements": [

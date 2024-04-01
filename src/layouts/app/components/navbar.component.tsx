@@ -7,7 +7,7 @@ export const NavbarComponent: React.FC = () => {
   const { pathname } = useLocation();
 
   return (
-    <nav className={classes.navbar}>
+<nav className={classes.navbar}>
       <ul className={classes.list}>
         <li
           className={
@@ -18,15 +18,17 @@ export const NavbarComponent: React.FC = () => {
         >
           <Link to={appRoutes.accountList}>Mis Cuentas</Link>
         </li>
-        <li
-          className={
-            pathname.startsWith(routesPrefixes.movements)
-              ? classes.selected
-              : ""
-          }
-        >
-          <Link to={appRoutes.movements}>Movimientos</Link>
-        </li>
+        {pathname.startsWith(routesPrefixes.movements) && (
+          <li
+            className={
+              pathname.startsWith(routesPrefixes.movements)
+                ? classes.selected
+                : ""
+            }
+          >
+            <Link to={appRoutes.movements}>Movimientos</Link>
+          </li>
+        )}
         <li
           className={
             pathname.startsWith(routesPrefixes.transfer)
